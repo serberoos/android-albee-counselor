@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FirstFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:id="@+id/static_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#242835"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/static_title"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:text="Day 통계"/>
+
+        <TextView
+            android:id="@+id/work_time"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="70dp"
+            android:text="오늘 일한 시간 : 00"
+            android:textColor="@color/white"
+            android:drawableLeft="@drawable/left_clock"
+            android:drawablePadding="10dp"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/num_adult_woman"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:drawableLeft="@drawable/left_woman"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:drawablePadding="5dp"
+            android:text="성인 여자 수 : 00"/>
+        <TextView
+            android:id="@+id/num_adult_man"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="228dp"
+            android:layout_height="40dp"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/left_man"
+            android:drawablePadding="5dp"
+            android:text="성인 남자 수 : 00"/>
+        <TextView
+            android:id="@+id/num_boy"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="210dp"
+            android:layout_height="40dp"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/left_boy"
+            android:drawablePadding="5dp"
+            android:text="남자 아이 수 : 00"/>
+        <TextView
+            android:id="@+id/num_girl"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/left_girl"
+            android:drawablePadding="5dp"
+            android:text="여자 아이 수 : 00"/>
+
+        <TextView
+            android:id="@+id/num_totalsales"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="판매 수 : 00"
+            android:textColor="@color/white"
+            android:drawableLeft="@drawable/left_sales"
+            android:drawablePadding="10dp"
+            android:textSize="20dp" />
+
+        <View
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="@color/white"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/total_sales"
+                    android:layout_width="210dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="오늘의 매출 : 0000원"
+                    android:textColor="@color/white"
+                    android:textSize="15dp" />
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="210dp"
+                    android:layout_height="30dp"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    android:text="오늘의 매출 : 0000원" />
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="210dp"
+                    android:layout_height="30dp"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    android:text="오늘의 매출 : 0000원" />
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="210dp"
+                    android:layout_height="30dp"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    android:text="오늘의 매출 : 0000원" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/date_lookup"
+                    android:layout_width="123dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="40dp"
+                    android:background="@drawable/button_background"
+                    android:text="날짜 조회"
+                    app:backgroundTint="@null" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

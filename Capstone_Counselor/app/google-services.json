@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "668508394178",
+    "project_id": "capstone-counselor",
+    "storage_bucket": "capstone-counselor.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:668508394178:android:538a2c4f63840de5a3615b",
+        "android_client_info": {
+          "package_name": "com.example.capstone_counselor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "668508394178-b1iue0fitj6uka46r2mh815gtjae2ukf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1njJA1o5oCJqoqDxvPgPETiGZgHp2cwU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "668508394178-b1iue0fitj6uka46r2mh815gtjae2ukf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
